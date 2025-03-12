@@ -1,6 +1,6 @@
 {
 	"name": "@lonewolfyx/prettier-config",
-	"version": "0.0.0-alpha.1",
+	"version": "0.0.1",
 	"type": "module",
 	"main": "./dist/index.js",
 	"files": [
@@ -17,6 +17,11 @@
 	"author": "lonewolfyx",
 	"license": "MIT",
 	"description": "prettier config",
+	"homepage": "https://github.com/lonewolfyx/prettier-config",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lonewolfyx/prettier-config.git"
+	},
 	"peerDependencies": {
 		"prettier": ">=3.0.0"
 	},
@@ -28,5 +33,9 @@
 		"prettier": ">=3.0.0",
 		"tsup": "^8.4.0",
 		"typescript": "^5.8.2"
+	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org",
+		"access": "public"
 	}
 }
