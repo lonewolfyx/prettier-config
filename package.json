@@ -1,0 +1,32 @@
+{
+	"name": "@lonewolfyx/prettier-config",
+	"version": "0.0.0-alpha.1",
+	"type": "module",
+	"main": "./dist/index.js",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"dev": "tsup --watch",
+		"format": "prettier --config ./prettier.config.js --write ./"
+	},
+	"keywords": [
+		"prettier-config",
+		"prettier"
+	],
+	"author": "lonewolfyx",
+	"license": "MIT",
+	"description": "prettier config",
+	"peerDependencies": {
+		"prettier": ">=3.0.0"
+	},
+	"dependencies": {
+		"prettier-plugin-multiline-arrays": "^3.0.6"
+	},
+	"devDependencies": {
+		"@lonewolfyx/tsconfig": "^0.0.3",
+		"prettier": ">=3.0.0",
+		"tsup": "^8.4.0",
+		"typescript": "^5.8.2"
+	}
+}
