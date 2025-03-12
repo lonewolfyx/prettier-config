@@ -11,7 +11,7 @@ npm install @lonewolfyx/prettier-config --save-dev
 Add create a `prettier.config.js`
 
 ```javascript
-import { defineConfig } from '@lonewolfyx/prettier-config'
+import defineConfig from '@lonewolfyx/prettier-config'
 
 export default defineConfig()
 ```
